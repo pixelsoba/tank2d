@@ -10,15 +10,15 @@ L'angle du canon servira à calculer la direction initiale du projectile.
 
 ## À faire
 
-- [ ] Vérifier que `Tank.tscn` contient un node `TurretPivot`.
-- [ ] Vérifier que `TurretPivot` contient un visuel de canon.
-- [ ] Configurer les actions d'input : `aim_up`, `aim_down`.
-- [ ] Associer `aim_up` à haut, W ou Z.
-- [ ] Associer `aim_down` à bas ou S.
-- [ ] Ajouter une variable exportée `aim_speed`.
-- [ ] Ajouter des limites d'angle.
-- [ ] Modifier la rotation de `TurretPivot`.
-- [ ] Empêcher le canon de dépasser les limites.
+- [x] Vérifier que `Tank.tscn` contient un node `TurretPivot`.
+- [x] Vérifier que `TurretPivot` contient un visuel de canon.
+- [x] Configurer les actions d'input : `aim_up`, `aim_down`.
+- [x] Associer `aim_up` à haut, W ou Z.
+- [x] Associer `aim_down` à bas ou S.
+- [x] Ajouter une variable exportée `aim_speed`.
+- [x] Ajouter des limites d'angle.
+- [x] Modifier la rotation de `TurretPivot`.
+- [x] Empêcher le canon de dépasser les limites.
 
 Code possible :
 
@@ -48,12 +48,12 @@ update_aim(delta)
 
 ## Critères de validation
 
-- [ ] Le canon monte avec l'input haut.
-- [ ] Le canon descend avec l'input bas.
-- [ ] Le canon reste dans des limites raisonnables.
-- [ ] L'angle est stocké dans une variable.
-- [ ] Le projet se lance sans erreur.
-
+- [x] Le canon monte avec l'input haut.
+- [x] Le canon descend avec l'input bas.
+- [x] Le canon reste dans des limites raisonnables.
+- [x] L'angle est stocké dans une variable.
+- [x] Le projet se lance sans erreur.
+      
 ## Commit attendu
 
 ```text
