@@ -10,11 +10,11 @@ Pour ce prototype, la caméra ne suit pas le tank. Elle reste fixe pour voir la 
 
 ## À faire
 
-- [ ] Dans `Main.tscn`, ajouter un node `Camera2D`.
-- [ ] Le placer pour cadrer la plateforme.
-- [ ] Activer la caméra courante.
-- [ ] Tester le lancement du jeu.
-- [ ] Ajuster le zoom si nécessaire.
+- [x] Dans `Main.tscn`, ajouter un node `Camera2D`.
+- [x] Le placer pour cadrer la plateforme.
+- [x] Activer la caméra courante.
+- [x] Tester le lancement du jeu.
+- [x] Ajuster le zoom si nécessaire.
 
 Structure possible :
 
@@ -28,12 +28,11 @@ Main (Node2D)
 
 ## Critères de validation
 
-- [ ] Une `Camera2D` existe.
-- [ ] La caméra est active.
-- [ ] La plateforme et le tank sont visibles au lancement.
-- [ ] La caméra ne bouge pas.
-- [ ] Le projet se lance sans erreur.
-
+- [x] Une `Camera2D` existe.
+- [x] La caméra est active.
+- [x] La plateforme et le tank sont visibles au lancement.
+- [x] La caméra ne bouge pas.
+- [x] Le projet se lance sans erreur.
 ## Commit attendu
 
 ```text
