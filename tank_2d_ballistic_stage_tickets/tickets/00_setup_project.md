@@ -10,7 +10,7 @@ On repart de zéro pour un prototype de tank 2D avec tir balistique.
 
 ## À faire
 
-- [ ] Créer un dossier de travail nommé `tank-2d-ballistic-prototype`.
+- [x] Créer un dossier de travail nommé `tank-2d-ballistic-prototype`.
 - [ ] Créer un nouveau projet Godot 4 dans ce dossier.
 - [ ] Choisir un projet 2D.
 - [ ] Créer les dossiers suivants :
