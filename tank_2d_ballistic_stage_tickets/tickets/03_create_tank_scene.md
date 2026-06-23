@@ -10,18 +10,18 @@ Le tank doit pouvoir se déplacer sur la plateforme avec la physique 2D de Godot
 
 ## À faire
 
-- [ ] Créer une scène `Tank.tscn`.
-- [ ] Sauvegarder la scène dans `scenes/`.
-- [ ] Utiliser un node racine de type `CharacterBody2D`.
-- [ ] Renommer le node racine en `Tank`.
-- [ ] Ajouter un enfant `CollisionShape2D`.
-- [ ] Utiliser une forme de collision simple, par exemple `RectangleShape2D`.
-- [ ] Ajouter un enfant `BodyVisual` de type `Sprite2D` ou `ColorRect`.
-- [ ] Ajouter un enfant `TurretPivot` de type `Node2D`.
-- [ ] Sous `TurretPivot`, ajouter `BarrelVisual` de type `Sprite2D`, `ColorRect` ou `Line2D`.
-- [ ] Créer un script `scripts/tank.gd`.
-- [ ] Attacher le script au node `Tank`.
-- [ ] Instancier `Tank.tscn` dans `Main.tscn`, sous `World`.
+- [x] Créer une scène `Tank.tscn`.
+- [x] Sauvegarder la scène dans `scenes/`.
+- [x] Utiliser un node racine de type `CharacterBody2D`.
+- [x] Renommer le node racine en `Tank`.
+- [x] Ajouter un enfant `CollisionShape2D`.
+- [x] Utiliser une forme de collision simple, par exemple `RectangleShape2D`.
+- [x] Ajouter un enfant `BodyVisual` de type `Sprite2D` ou `ColorRect`.
+- [x] Ajouter un enfant `TurretPivot` de type `Node2D`.
+- [x] Sous `TurretPivot`, ajouter `BarrelVisual` de type `Sprite2D`, `ColorRect` ou `Line2D`.
+- [x] Créer un script `scripts/tank.gd`.
+- [x] Attacher le script au node `Tank`.
+- [x] Instancier `Tank.tscn` dans `Main.tscn`, sous `World`.
 
 Structure attendue :
 
@@ -44,12 +44,11 @@ func _ready() -> void:
 
 ## Critères de validation
 
-- [ ] `scenes/Tank.tscn` existe.
-- [ ] Le node racine est un `CharacterBody2D`.
-- [ ] Le tank est visible dans `Main.tscn`.
-- [ ] Le tank possède une collision.
-- [ ] Le projet se lance sans erreur.
-
+- [x] `scenes/Tank.tscn` existe.
+- [x] Le node racine est un `CharacterBody2D`.
+- [x] Le tank est visible dans `Main.tscn`.
+- [x] Le tank possède une collision.
+- [x] Le projet se lance sans erreur.
 ## Commit attendu
 
 ```text
