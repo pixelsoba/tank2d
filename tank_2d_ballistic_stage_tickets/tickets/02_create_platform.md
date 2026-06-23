@@ -10,13 +10,13 @@ La plateforme sert de sol. Elle doit avoir un visuel et une collision.
 
 ## À faire
 
-- [ ] Dans `Main.tscn`, sous `World`, ajouter un node `Platform` de type `StaticBody2D`.
-- [ ] Ajouter un enfant `CollisionShape2D`.
-- [ ] Utiliser une forme `RectangleShape2D`.
-- [ ] Régler la taille de la collision, par exemple largeur 900 px, hauteur 40 px.
-- [ ] Placer la plateforme vers le bas de l'écran.
-- [ ] Ajouter un visuel simple : `ColorRect`, `Sprite2D` ou `Polygon2D`.
-- [ ] Vérifier que le sol est visible.
+- [x] Dans `Main.tscn`, sous `World`, ajouter un node `Platform` de type `StaticBody2D`.
+- [x] Ajouter un enfant `CollisionShape2D`.
+- [x] Utiliser une forme `RectangleShape2D`.
+- [x] Régler la taille de la collision, par exemple largeur 900 px, hauteur 40 px.
+- [x] Placer la plateforme vers le bas de l'écran.
+- [x] Ajouter un visuel simple : `ColorRect`, `Sprite2D` ou `Polygon2D`.
+- [x] Vérifier que le sol est visible.
 
 Structure possible :
 
@@ -29,11 +29,10 @@ World (Node2D)
 
 ## Critères de validation
 
-- [ ] La plateforme est visible.
-- [ ] La plateforme possède une collision.
-- [ ] La plateforme est placée en bas de l'écran.
-- [ ] Le projet se lance sans erreur.
-
+- [x] La plateforme est visible.
+- [x] La plateforme possède une collision.
+- [x] La plateforme est placée en bas de l'écran.
+- [x] Le projet se lance sans erreur.
 ## Commit attendu
 
 ```text
