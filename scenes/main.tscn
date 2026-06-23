@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://dohklp54ku5vd"]
+
+[node name="Main" type="Node2D" unique_id=507970936]
+
+[node name="World" type="Node2D" parent="." unique_id=955434206]
+
+[node name="Projectiles" type="Node2D" parent="." unique_id=1182238066]
+
+[node name="UI" type="CanvasLayer" parent="." unique_id=403576435]
