@@ -10,13 +10,13 @@ Le visuel peut venir d'un asset pack ou être provisoire. Le gameplay est priori
 
 ## À faire
 
-- [ ] Choisir un visuel de tank dans l'image de référence ou dans un asset pack.
-- [ ] Placer la planche complète dans `assets/reference/` si besoin.
-- [ ] Créer ou extraire un visuel simple dans `assets/icons/tank.png` ou `assets/icons/tank.svg`.
-- [ ] Assigner le visuel à `BodyVisual`.
-- [ ] Ajuster la taille du tank.
-- [ ] Vérifier que le centre du tank correspond à peu près à sa collision.
-- [ ] Garder un canon séparé si possible.
+- [x] Choisir un visuel de tank dans l'image de référence ou dans un asset pack.
+- [x] Placer la planche complète dans `assets/reference/` si besoin.
+- [x] Créer ou extraire un visuel simple dans `assets/icons/tank.png` ou `assets/icons/tank.svg`.
+- [x] Assigner le visuel à `BodyVisual`.
+- [x] Ajuster la taille du tank.
+- [x] Vérifier que le centre du tank correspond à peu près à sa collision.
+- [x] Garder un canon séparé si possible.
 
 ## Option simple sans extraction
 
@@ -29,10 +29,10 @@ BarrelVisual : ligne ou rectangle fin
 
 ## Critères de validation
 
-- [ ] Le tank est identifiable visuellement.
-- [ ] Le visuel est aligné avec la collision.
-- [ ] Le canon est visible.
-- [ ] Le projet se lance sans erreur.
+- [x] Le tank est identifiable visuellement.
+- [x] Le visuel est aligné avec la collision.
+- [x] Le canon est visible.
+- [x] Le projet se lance sans erreur.
 
 ## Commit attendu
 
