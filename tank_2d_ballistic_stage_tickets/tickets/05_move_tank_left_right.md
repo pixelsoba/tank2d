@@ -10,16 +10,16 @@ En Godot 4, pour un objet contrôlé avec collision, on utilise `CharacterBody2D
 
 ## À faire
 
-- [ ] Configurer les actions d'input : `move_left`, `move_right`.
-- [ ] Associer `move_left` à gauche, A ou Q.
-- [ ] Associer `move_right` à droite ou D.
-- [ ] Ajouter une variable exportée `move_speed`.
-- [ ] Ajouter une variable exportée `gravity`.
-- [ ] Dans `_physics_process(delta)`, lire l'axe gauche/droite.
-- [ ] Modifier `velocity.x`.
-- [ ] Appliquer la gravité sur `velocity.y`.
-- [ ] Appeler `move_and_slide()`.
-- [ ] Vérifier que le tank ne traverse pas la plateforme.
+- [x] Configurer les actions d'input : `move_left`, `move_right`.
+- [x] Associer `move_left` à gauche, A ou Q.
+- [x] Associer `move_right` à droite ou D.
+- [x] Ajouter une variable exportée `move_speed`.
+- [x] Ajouter une variable exportée `gravity`.
+- [x] Dans `_physics_process(delta)`, lire l'axe gauche/droite.
+- [x] Modifier `velocity.x`.
+- [x] Appliquer la gravité sur `velocity.y`.
+- [x] Appeler `move_and_slide()`.
+- [x] Vérifier que le tank ne traverse pas la plateforme.
 
 Code possible :
 
@@ -44,13 +44,12 @@ func _physics_process(delta: float) -> void:
 
 ## Critères de validation
 
-- [ ] Le tank se déplace à gauche.
-- [ ] Le tank se déplace à droite.
-- [ ] Le tank reste posé sur la plateforme.
-- [ ] Le code utilise `velocity`.
-- [ ] Le code utilise `move_and_slide()`.
-- [ ] Le projet se lance sans erreur.
-
+- [x] Le tank se déplace à gauche.
+- [x] Le tank se déplace à droite.
+- [x] Le tank reste posé sur la plateforme.
+- [x] Le code utilise `velocity`.
+- [x] Le code utilise `move_and_slide()`.
+- [x] Le projet se lance sans erreur.
 ## Commit attendu
 
 ```text
