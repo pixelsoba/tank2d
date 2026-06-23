@@ -24,17 +24,17 @@ assets/reference/
 docs/
 ```
 
-- [ ] Ajouter un fichier `README.md`.
-- [ ] Initialiser un dépôt Git local.
-- [ ] Vérifier que le projet s'ouvre correctement dans Godot.
+- [x] Ajouter un fichier `README.md`.
+- [x] Initialiser un dépôt Git local.
+- [x] Vérifier que le projet s'ouvre correctement dans Godot.
 
 ## Critères de validation
 
-- [ ] Le projet s'ouvre dans Godot.
-- [ ] Les dossiers attendus existent.
-- [ ] Un dépôt Git local existe.
-- [ ] Le fichier `README.md` existe.
-- [ ] Un premier commit a été fait.
+- [x] Le projet s'ouvre dans Godot.
+- [x] Les dossiers attendus existent.
+- [x] Un dépôt Git local existe.
+- [x] Le fichier `README.md` existe.
+- [x] Un premier commit a été fait.
 
 ## Commit attendu
 
