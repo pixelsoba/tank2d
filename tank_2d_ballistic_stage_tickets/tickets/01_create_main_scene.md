@@ -10,15 +10,15 @@ La scène principale contiendra la caméra fixe, la plateforme, le tank, les pro
 
 ## À faire
 
-- [ ] Créer une scène `Main.tscn`.
-- [ ] Sauvegarder la scène dans `scenes/`.
-- [ ] Utiliser un node racine de type `Node2D`.
-- [ ] Renommer le node racine en `Main`.
-- [ ] Ajouter un node `World` de type `Node2D`.
-- [ ] Ajouter un node `Projectiles` de type `Node2D`.
-- [ ] Ajouter un node `UI` de type `CanvasLayer`.
-- [ ] Configurer `Main.tscn` comme scène principale du projet.
-- [ ] Lancer le projet.
+- [x] Créer une scène `Main.tscn`.
+- [x] Sauvegarder la scène dans `scenes/`.
+- [x] Utiliser un node racine de type `Node2D`.
+- [x] Renommer le node racine en `Main`.
+- [x] Ajouter un node `World` de type `Node2D`.
+- [x] Ajouter un node `Projectiles` de type `Node2D`.
+- [x] Ajouter un node `UI` de type `CanvasLayer`.
+- [x] Configurer `Main.tscn` comme scène principale du projet.
+- [x] Lancer le projet.
 
 Structure attendue :
 
@@ -31,10 +31,10 @@ Main (Node2D)
 
 ## Critères de validation
 
-- [ ] `scenes/Main.tscn` existe.
-- [ ] `Main.tscn` est la scène principale.
-- [ ] La structure de nodes est conforme.
-- [ ] Le projet se lance sans erreur.
+- [x] `scenes/Main.tscn` existe.
+- [x] `Main.tscn` est la scène principale.
+- [x] La structure de nodes est conforme.
+- [x] Le projet se lance sans erreur.
 
 ## Commit attendu
 
